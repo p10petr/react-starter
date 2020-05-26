@@ -1,13 +1,13 @@
 {
-  "name": "react_webpack_starter",
+  "name": "react-starter",
   "version": "1.0.0",
-  "description": "Boilerplate for React apps",
+  "description": "Basic React + Webpack boilerplate",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "./node_modules/.bin/webpack --mode production"
   },
-  "author": "Brad Traversy & Vladimir Paziuk",
+  "author": "Ioannis Petridis",
   "license": "MIT",
   "dependencies": {
     "history": "^4.7.2",
@@ -20,6 +20,9 @@
     "redux-saga": "^0.16.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.10.0",
+    "@babel/preset-env": "^7.10.0",
+    "@babel/preset-react": "^7.10.0",
     "@types/history": "^4.7.0",
     "@types/react": "^16.4.7",
     "@types/react-dom": "^16.0.6",
@@ -27,10 +30,7 @@
     "@types/react-router-dom": "^4.3.0",
     "@types/react-router-redux": "^5.0.15",
     "autoprefixer": "^9.0.2",
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.4",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
+    "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^0.28.11",
     "file-loader": "^1.1.11",
@@ -45,9 +45,9 @@
     "tslint-loader": "^3.6.0",
     "tslint-react": "^3.6.0",
     "typescript": "^2.9.2",
-    "webpack": "^4.4.0",
-    "webpack-cli": "^2.0.13",
-    "webpack-dev-server": "^3.1.1"
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
   },
   "browserslist": {
     "production": [

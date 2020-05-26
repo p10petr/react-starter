@@ -1,7 +1,8 @@
 import * as React from "react";
-import { IFrontPage } from "./";
+import {IFrontPage} from "./";
 
 class FrontPage extends React.Component<IFrontPage, {}> {
+
     componentDidMount(): void {
         this.props.fetchData();
     }
@@ -9,7 +10,7 @@ class FrontPage extends React.Component<IFrontPage, {}> {
     render(): JSX.Element {
         return (
             <div>
-                <h1>Front page</h1>
+                <h1>Front page hello</h1>
             </div>
         );
     }

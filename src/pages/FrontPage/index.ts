@@ -1,10 +1,10 @@
 import { connect, MapDispatchToProps, MapStateToProps } from "react-redux";
 import { compose } from "redux";
 
-import { IGlobalStore } from "../../reducers/index";
+import { IGlobalStore } from "../../reducers";
 import { IActionCreator } from "../../interfaces/IReducers";
 
-import { fetchData } from "../../actions/MainActions/index";
+import { fetchData } from "../../actions/MainActions";
 
 import FrontPage from "./FrontPage";
 
